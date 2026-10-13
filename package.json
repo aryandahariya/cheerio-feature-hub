@@ -1,0 +1,29 @@
+{
+  "name": "cheerio-feature-hub",
+  "version": "1.0.0",
+  "description": "Cheerio Feature Discovery Hub prototype",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test:e2e": "playwright test",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "lucide-react": "^1.56.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0"
+  }
+}
